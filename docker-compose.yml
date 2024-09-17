@@ -38,7 +38,7 @@ services:
             - ucWorkshopPgData:/var/lib/postgresql/data
 
     # pgadmin
-    service-uc-pgadmin:
+    service-uc-pgadmin: 
         container_name: uc-workshop-pgadmin
         image: dpage/pgadmin4
         environment:
